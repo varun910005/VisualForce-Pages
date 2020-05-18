@@ -46,11 +46,7 @@ public class AccountSearchController1 {
         String Searchquery = 'SELECT Name,id, Industry, Rating, Phone from Account where Name like \'%'+keywords+'%\' Limit 10';
         accounts = Database.query(Searchquery);
     }
-  /*  public void setupContactsAndOppo()
-      {
-     contacts=[select id, FirstName, LastName from Contact where AccountId=:recid];
-     opportunities =[Select id, Name from Opportunity where Accountid =: recid];
-      }*/
+ 
    
    
    
